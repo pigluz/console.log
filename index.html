@@ -6,61 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 
 <body>
     <fieldset>
         <legend>
-            <h1>Formularz</h1>
+            <h1>Form</h1>
         </legend>
         <form>
-            <h2>Podaj imię</h2>
+            <h2>Insert name</h2>
                 <input type="text" class="text_input" id="imie">
 
-            <h2>Podaj nazwisko</h2>
+            <h2>Insert surname</h2>
                 <input type="text" class="text_input" id="nazw">
 
-            <h2>Podaj wiek</h2>
+            <h2>Insert age</h2>
                 <input type="number" class="text_input" id="wiek">
 
-            <h2>Podaj pesel</h2>
+            <h2>Insert social security number</h2>
                 <input type="number" class="text_input" id="psel" minlength="1" maxlength="11">
 
-            <h2>Podaj email</h2>
+            <h2>Insert e-mail</h2>
                 <input type="email" class="text_input" id="mail">
 
-            <h2>Podaj hasło</h2>
+            <h2>Insert password</h2>
                 <input type="password" class="text_input" id="pass">
 
-            <h2>Wybierz płeć</h2>
-                <input type="radio" class="radio_input" name="plec" value="Mężczyzna" id="men"> 
-                    <label for="men">Mężczyzna</label><br>
+            <h2>Choose your gender</h2>
+                <input type="radio" class="radio_input" name="plec" value="Man" id="men"> 
+                    <label for="men">Man</label><br>
                 
-                <input type="radio" class="radio_input" name="plec" value="Kobieta" id="wom"> 
-                    <label for="wom">Kobieta</label><br>
+                <input type="radio" class="radio_input" name="plec" value="Woman" id="wom"> 
+                    <label for="wom">Woman</label><br>
 
-                <input type="radio" class="radio_input" name="plec" value="Inna" id="inne"> 
-                    <label for="inne">Inne</label><br>
+                <input type="radio" class="radio_input" name="plec" value="Other" id="inne"> 
+                    <label for="inne">Other</label><br>
 
-            <h2>Wybierz zainteresowania</h2>
-                <input type="checkbox" class="checkbox_input" id="gry" value="Granie w gry">
-                    <label for="gry">Granie w gry</label><br>
+            <h2>Choose your interests</h2>
+                <input type="checkbox" class="checkbox_input" id="gry" value="Playing video games">
+                    <label for="gry">Playing video games</label><br>
 
-                <input type="checkbox" class="checkbox_input" id="czy" value="Czytanie">
-                    <label for="czy">Czytanie</label><br>
+                <input type="checkbox" class="checkbox_input" id="czy" value="Reading books">
+                    <label for="czy">Reading books</label><br>
 
-                <input type="checkbox" class="checkbox_input" id="jed" value="Jedzenie">
-                    <label for="jed">Jedzenie</label><br>
+                <input type="checkbox" class="checkbox_input" id="jed" value="Eating">
+                    <label for="jed">Eating</label><br>
 
-                <input type="checkbox" class="checkbox_input" id="spn" value="Spanie">
-                    <label for="spn">Spanie</label><br><br>
+                <input type="checkbox" class="checkbox_input" id="spn" value="Sleeping">
+                    <label for="spn">Sleeping</label><br><br>
 
             <input type="checkbox" id="rodo" class="checkbox_input">
-                <label for="rodo"><b>Zaakcepuj RODO</b></label><br><br>
+                <label for="rodo"><b>Accept RODO</b></label><br><br>
 
-            <button type="button" id="submit" class="button_input">Wyślij</button>
-            <input type="reset" class="button_input">
+            <button type="button" id="submit" class="button_input">Send</button>
+            <input type="reset" class="button_input" value="Reset">
         </form>
     </fieldset>
     <script src="index.js"></script>
